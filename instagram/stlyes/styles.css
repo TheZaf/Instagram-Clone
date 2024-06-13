@@ -1,0 +1,181 @@
+body{
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display:inline-flex;
+    flex-direction: row;
+    width: 250px;
+    margin: 0;
+   
+}
+.right-container{
+    position: fixed;
+    width: 220px;
+    height: 100%;
+    padding: 8px 12px 20px 12px;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgb(221, 214, 214);
+}
+.top-section{
+    height: 32px;
+    width: 196px;
+    padding: 20px 12px 16px 12px;
+    margin: 0px 0px 19px 0px;
+}
+.shell{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Noto Sans Elymaic", sans-serif;
+    font-size: 1rem;
+    /*width: 194px;*/
+    height: 24px;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px;
+    cursor: pointer;
+}
+.shell:hover{
+    background-color: rgb(238, 236, 236);
+    border-radius: 10px;
+}
+.section{
+    padding-left: 16px;
+}
+.shell-more{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: "Noto Sans Elymaic", sans-serif;
+    margin-top:10%;
+    width: 194px;
+    height: 24px;
+    padding: 12px 12px 12px 12px;
+    margin: 4px 4px;
+}
+.bottom{
+    padding-top: 45%;
+}
+.logo{
+    width: 133px;
+    height: 42px;
+}
+.riyal{
+    display: none;
+}
+.main{
+    display: flex;
+    flex-direction:column;
+    justify-content:start;
+    align-items: center;
+    width: 630px;
+}
+.suggest{
+    width: 320px;
+    height: 1695px;
+    padding: 0px 0px 0px 64px;
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    font-family: "Noto Sans Elymaic", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 287px;
+    height: 44px;
+    padding: 0px 16px 0px 16px;
+}
+.profile1{
+    font-family: "Noto Sans Elymaic", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 287px;
+    height: 44px;
+}
+.user{
+    margin-right: 10px;
+}
+.user_name{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 198.53px;
+}
+.profile_container{
+    width: 319px;
+    height: 546px;
+    margin-top: 40px;
+}
+.suggestion{
+    margin-top: 20px;
+    font-family: "Noto Sans Elymaic", sans-serif;
+    font-size: 13px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 287px;
+    height: 11px;
+    padding: 4px 16px 4px 16px;
+}
+.suggest-container{
+
+    width: 315px;
+    height: 300px;
+    padding: 8px 0px 8px 0px;
+}
+.suggest-user{
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans Elymaic", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 287px;
+    height: 44px;
+    padding: 8px 16px 8px 16px;
+}
+.nav{
+    width: 287px;
+    height: 41px;
+    margin-top: 20px;
+    color: #c7c7c7;
+    font-size: 10px;
+    padding: 0px 16px 0px 16px;
+    font-family: "Noto Sans Elymaic", sans-serif;
+}
+.rights{
+    width: 287px;
+    height: 16px;
+    color: #c7c7c7;
+    font-size: 10px;
+    padding: 0px 16px 0px 16px;
+    font-family: "Noto Sans Elymaic", sans-serif;
+
+}
+.header-bar{
+    display: none;
+    width: 95%;
+    padding: 0px 16px 0px 8px;
+    height: 60px;
+}
+.search{
+    height:36px;
+    padding: 0px 13px 0px 13px;
+}

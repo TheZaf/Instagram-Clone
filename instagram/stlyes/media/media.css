@@ -1,0 +1,141 @@
+@media(max-width:1278px){
+    .section{
+        display:none;
+    }
+    .right-container{
+        width: 48px;
+    }
+    .container{
+        width: 48px;
+    }
+    .logo{
+        display: none;
+    }
+    .riyal{
+        display: block;
+    }
+}
+
+@media(max-width:1092px){
+    .suggest{
+        display: none;
+    }
+}
+@media(max-width:746px){
+    .bottom-panel{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-around;
+        height: 48px;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        bottom: 0px;
+        border-top: 1px solid rgb(219,219,219);
+    }
+}
+
+@media(max-width:747px){
+    .right-container{
+        display: none;
+    }
+    .main{    
+        display: flex;
+        justify-content: center;   
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        display: none;
+    }   
+    .header-bar{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 95%;
+        border-bottom: 1px solid rgb(219,219,219);
+    }
+    .lol{
+        padding-right: 240px;
+     }
+    .adding{
+        padding-right: 10px;
+    }
+    .story-container{
+        width: 95%;
+    }
+
+}
+@media(max-width:450px){
+    .story-container{
+        width: 100%;
+        border-bottom: 1px solid rgb(219,219,219);
+    }
+    .header-bar{
+        width: 95%;
+    }
+    .lol{
+        padding-right: 140px;
+    }
+    .adding{
+        padding-right: 10px;
+    }
+    .feed{
+        display:inline-flex;
+        flex-direction: column;
+        width: 101%;
+        border-bottom: none;
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+    .js-feed{
+        width: 100%;
+    }
+    .feed-header,.post-status,.caption,.like-count,.cmt,.add-cmt{
+        width: 95%;
+        padding-left: 3%;
+    }
+    .post-img{
+        width: 100%;
+    }
+    .post{
+        width: 100%;
+    }    
+}
+@media(max-width:375px){
+    .story-container{
+        width: 100%;
+    }
+    .header-bar{
+        width: 95%;
+    }
+    .lol{
+        padding-right: 150px;
+    }
+    .adding{
+        padding-right: 10px;
+    }
+    .feed{
+        margin-top: 10px;
+        display:inline-flex;
+        flex-direction: column;
+        width: 101%;
+        border-bottom: none;
+    }
+    .js-feed{
+        width: 100%;
+    }
+    .feed-header,.post-status,.caption,.like-count,.cmt,.add-cmt{
+        width: 95%;
+        padding-left: 3%;
+    }
+    .post-img{
+        width: 100%; 
+    }
+    .post{
+        width: 100%;
+    }    
+}
