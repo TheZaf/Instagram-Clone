@@ -5,8 +5,6 @@ let loggedIn = false;
 function logIn(){
   while (!loggedIn){
     if(nameElement.value == 'user' && passElement.value == '2004'){
-      console.log('you are manoj')
-      console.log('you logged in')
       location.href='/instagram/index.html';
       loggedIn = true;
     }else if (passElement.value != 'manoj') {
