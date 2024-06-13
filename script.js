@@ -7,7 +7,7 @@ function logIn(){
     if(nameElement.value == 'user' && passElement.value == '2004'){
       console.log('you are manoj')
       console.log('you logged in')
-      location.href='/instagram/instagram.html';
+      location.href='/instagram/index.html';
       loggedIn = true;
     }else if (passElement.value != 'manoj') {
       console.log('username or password not found a match!')
